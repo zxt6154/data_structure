@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/PTree.dir/LinkQueue.c.o CMakeFiles/PTree.dir/LinkList.c.o CMakeFiles/PTree.dir/PTree.c.o CMakeFiles/PTree.dir/PTree-main.c.o -o PTree  ../../Status/libScanf_lib.a 

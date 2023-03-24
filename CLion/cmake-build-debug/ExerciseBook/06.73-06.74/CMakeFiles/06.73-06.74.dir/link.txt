@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/06.73-06.74.dir/CSTree.c.o CMakeFiles/06.73-06.74.dir/06.73-06.74.c.o -o 06.73-06.74  ../../Status/libScanf_lib.a 

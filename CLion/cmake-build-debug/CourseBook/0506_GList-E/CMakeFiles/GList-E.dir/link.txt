@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/GList-E.dir/SString.c.o CMakeFiles/GList-E.dir/GList-E.c.o CMakeFiles/GList-E.dir/GList-E-main.c.o -o GList-E  ../../Status/libScanf_lib.a 

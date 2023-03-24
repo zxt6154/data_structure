@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libScanf_lib.a CMakeFiles/Scanf_lib.dir/Status.c.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libScanf_lib.a

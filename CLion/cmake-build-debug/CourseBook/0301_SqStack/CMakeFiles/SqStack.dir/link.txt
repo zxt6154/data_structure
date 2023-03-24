@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/SqStack.dir/SqStack.c.o CMakeFiles/SqStack.dir/SqStack-main.c.o -o SqStack  ../../Status/libScanf_lib.a 

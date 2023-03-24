@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/08.14.dir/BuddySystem.c.o CMakeFiles/08.14.dir/08.14.c.o -o 08.14  ../../Status/libScanf_lib.a 

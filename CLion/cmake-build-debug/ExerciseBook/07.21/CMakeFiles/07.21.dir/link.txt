@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/07.21.dir/ALGraph.c.o CMakeFiles/07.21.dir/07.21.c.o -o 07.21  ../../Status/libScanf_lib.a 

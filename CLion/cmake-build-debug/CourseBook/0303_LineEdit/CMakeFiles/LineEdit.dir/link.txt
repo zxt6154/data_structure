@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/LineEdit.dir/SqStack.c.o CMakeFiles/LineEdit.dir/LineEdit.c.o CMakeFiles/LineEdit.dir/LineEdit-main.c.o -o LineEdit  ../../Status/libScanf_lib.a 

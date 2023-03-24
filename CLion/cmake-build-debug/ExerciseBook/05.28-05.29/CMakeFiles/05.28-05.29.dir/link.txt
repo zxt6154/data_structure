@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/05.28-05.29.dir/StringUtil.c.o CMakeFiles/05.28-05.29.dir/MPList.c.o CMakeFiles/05.28-05.29.dir/05.28-05.29.c.o -o 05.28-05.29  ../../Status/libScanf_lib.a 
