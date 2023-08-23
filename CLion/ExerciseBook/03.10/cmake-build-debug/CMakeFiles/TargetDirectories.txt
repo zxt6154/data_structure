@@ -1,0 +1,3 @@
+/Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.10/cmake-build-debug/CMakeFiles/03.10.dir
+/Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.10/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.10/cmake-build-debug/CMakeFiles/rebuild_cache.dir

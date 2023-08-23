@@ -16,7 +16,7 @@ void PrintElem(ElemType e);
 int main(int argc, char* argv[]) {
     DuLinkList L;
     int i;
-    
+
     // 准备测试数据
     InitList(&L);
     for(i = 1; i <= 10; i++) {
@@ -24,14 +24,37 @@ int main(int argc, char* argv[]) {
     }
     printf("重排前 L = ");
     ListTraverse(L, PrintElem);
-    
+
     Algo_2_37(L);
-    
+
     printf("重排后 L = ");
     ListTraverse(L, PrintElem);
-    
+
     return 0;
 }
+
+
+
+//int main(int argc, char* argv[]) {
+//    DuLinkList L;
+//    int i;
+//
+//    //准备测试数据
+//    InitList(&L);
+//
+//
+//    for (i = 1; i <= 8; ++i) {
+//        ListInsert(L, i, 2*i);
+//    }
+//
+//    printf("双向链表测试 = > L=");
+//    ListTraverse(L, PrintElem);
+//
+//    return 0;
+//}
+
+
+
 
 
 // 按奇偶次序重排链表各元素位序：奇数位序元素靠前正序，偶数位序元素靠后逆序

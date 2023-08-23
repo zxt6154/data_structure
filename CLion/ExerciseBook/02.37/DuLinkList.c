@@ -6,6 +6,8 @@
 
 #include "DuLinkList.h"        //**▲02 线性表**//
 
+
+
 /*
  * 初始化
  *
@@ -54,10 +56,15 @@ Status ListInsert(DuLinkList L, int i, ElemType e) {
     s->data = e;
     
     // 将s插入到p的前面，称为第i个结点
-    s->prior = p->prior;
+//    s->prior = p->prior;
+//    p->prior->next = s;
+//    s->next = p;
+//    p->prior = s;
+
     p->prior->next = s;
-    s->next = p;
     p->prior = s;
+    s->prior = p->prior;
+    s->next = p;
     
     return OK;
 }
@@ -90,6 +97,7 @@ void ListTraverse(DuLinkList L, void(Visit)(ElemType)) {
  *
  * ▓▓▓▓ 注 ▓▓▓▓
  * 1.加static的含义是当前函数只在DuLinkList中使用，不会被别的文件引用
+ * 假设链表长度是len 且需要获取第len+1个元素
  * 2.假设链表长度为len，且需要获取第len+1个元素的引用时，由于这里是循环链表，所以返回的是头结点
  */
 static DuLinkList GetElemP(DuLinkList L, int i) {

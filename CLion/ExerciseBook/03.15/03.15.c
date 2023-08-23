@@ -10,7 +10,7 @@ typedef int SElemType;
 /* 双向栈中包含的两个栈的栈名 */
 typedef enum {
     Left, Right
-} StackName;
+} StackName; //缺省情况下整形值从0开始 如果对列表中的某个标识符进行赋值 那么紧随其后的那个标识符的值比所赋的值大1 类推
 
 /* 双向栈结构 */
 typedef struct {
@@ -30,7 +30,16 @@ Status Pop_3_15(TWS* tws, StackName name, SElemType* x);
 // 输出栈中元素，name指示输出哪个栈中的元素
 void OutputStack(TWS tws, StackName name);
 
-
+/**
+ * 3.15 假设以顺序存储结构实现一个双向栈，即在一维数组的存储空间中存在着两个栈，它们的栈底分别设在数组的两个端点。a端点和b端点
+ * |a --- ...       .         ... ---b|
+ * |a --- ...       .         ... ---b|
+ * 试编写实现这个双向栈tws的三个操作：
+ * 初始化inistack(tws)、入栈push(tws,i,x)和出栈pop(tws,i)的算法，其中i为0或1，用以分别指示设在数组两端的两个栈，并讨论按过程(正/误状态变量可设为变参)或函数设计这些操作算法各有什么有缺点
+ * @param argc
+ * @param argv
+ * @return
+ */
 int main(int argc, char* argv[]) {
     TWS S;
     int i, x;
@@ -78,6 +87,14 @@ Status Inistack_3_15(TWS* tws) {
     
     return OK;
 }
+Status initStack_3_15(TWS* tws) {
+    if(tws == NULL) {return ERROR;}
+
+    (*tws).top[Left] = -1;
+    (*tws).top[Right] = N;
+    return OK;
+}
+
 
 // 入栈，name指示向哪个栈中添加元素
 Status Push_3_15(TWS* tws, StackName name, SElemType x) {
@@ -107,13 +124,33 @@ Status Push_3_15(TWS* tws, StackName name, SElemType x) {
     
     return OK;
 }
+Status push_3_15(TWS* tws, StackName name, SElemType x) {
+    if(tws == NULL) {
+        return ERROR;
+    }
+    if((*tws).top[Left] + 1 == (*tws).top[Right]) {return ERROR;}
+
+    // 先移动站定游标 再存入元素
+    switch (name) {
+        case Left:
+            (*tws).top[name]++;
+            break;
+        case Right:
+            (*tws).top[name]--;
+            break;
+        default:
+            break;
+    }
+
+    (*tws).stack[(*tws).top[name]] = x;
+    return OK;
+}
 
 // 出栈，name指示从哪个栈中移除元素
 Status Pop_3_15(TWS* tws, StackName name, SElemType* x) {
     if(tws == NULL) {
         return ERROR;
     }
-    
     // 先移除元素，再移动游标
     switch(name) {
         case Left:
@@ -135,8 +172,11 @@ Status Pop_3_15(TWS* tws, StackName name, SElemType* x) {
         default:
             break;
     }
-    
     return OK;
+}
+
+Status pop_3_15(TWS* tws, StackName name, SElemType* x) {
+    if(tws == NULL) {return ERROR;}
 }
 
 // 输出栈中元素，name指示输出哪个栈中的元素

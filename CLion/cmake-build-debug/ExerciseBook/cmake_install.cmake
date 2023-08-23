@@ -189,6 +189,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/alice/CLionProjects/Data-Structure/CLion/cmake-build-debug/ExerciseBook/03.10/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/alice/CLionProjects/Data-Structure/CLion/cmake-build-debug/ExerciseBook/03.12/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/alice/CLionProjects/Data-Structure/CLion/cmake-build-debug/ExerciseBook/03.15/cmake_install.cmake")
 endif()
 

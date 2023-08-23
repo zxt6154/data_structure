@@ -117,6 +117,31 @@ Status CreatList(LinkList* L, ElemType elems[], int n) {
     
     return OK;
 }
+Status CreateListTest(LinkList* L, ElemType elems[], int n) {
+     LinkList  s, r;
+     int i;
+
+    if(L == NULL) {return ERROR;}
+    *L = NULL;
+
+    for(i = 0; i < n; i++) {
+        s = (LinkList) malloc(sizeof (LNode));
+        if(s == NULL) {
+            exit(OVERFLOW);
+        }
+
+    }
+
+
+    return OK;
+}
+
+
+
+
+
+
+
 
 // 输出链表L
 void Output(LinkList L) {
