@@ -2,6 +2,6 @@
 include_directories(${CMAKE_SOURCE_DIR}/Status)
 
 # 生成可执行文件
-add_executable(03.21 SqStack.h SqStack.c 03.21.c)
+add_executable(03.21 SqStack.h SqStack.c 03.21.c 03.21_z.c)
 # 链接公共库
 target_link_libraries(03.21 Scanf_lib)

@@ -1,12 +1,15 @@
 #include <stdio.h>
 #include "Status.h"     //**▲01 绪论**//
 
-/* 此算法类似于迷宫寻路算法 */
+/* 此算法类似于迷宫寻路算法
+ * 假设以二维数组g(1…m, 1…n)表示一个图像区域，g[i,j]表示该区域中点(i,j)所具颜色，
+ * 其值为从0到k的整数。编写算法置换点(i0,j0)所在区域的颜色。
+ * 约定和(i0,j0)同色的上、下、左、右的邻接点为同色区域的点。*/
 
 /* 宏定义 */
 #define SleepTime 2
 #define Row 10
-#define Col    17
+#define Col 17
 
 /* 访问方向 */
 typedef enum {
@@ -45,18 +48,18 @@ Status NextPos(SElemType* e);
 // 判断当前的点是否出界
 Status IsCross(SElemType e);
 
-
-int main(int argc, char** argv) {
-    int g[Row][Col];    // 存放图像区域点的颜色
-    SElemType start;    // 染色的起点
-    
-    InitGrap(g, &start);
-    PaintGrap(g);
-    
-    Algo_3_20(g, start);
-    
-    return 0;
-}
+//
+//int main(int argc, char** argv) {
+//    int g[Row][Col];    // 存放图像区域点的颜色
+//    SElemType start;    // 染色的起点
+//
+//    InitGrap(g, &start);
+//    PaintGrap(g);
+//
+//    Algo_3_20(g, start);
+//
+//    return 0;
+//}
 
 
 // 对指定的图像染色

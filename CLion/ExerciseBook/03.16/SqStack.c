@@ -25,6 +25,7 @@ Status InitStack(SqStack* S) {
     return OK;
 }
 
+
 /*
  * 销毁(结构)
  *
@@ -43,6 +44,7 @@ Status DestroyStack(SqStack* S) {
     
     return OK;
 }
+
 
 /*
  * 判空
@@ -70,8 +72,11 @@ Status Push(SqStack* S, SElemType e) {
     if(S == NULL || (*S).base == NULL) {
         return ERROR;
     }
-    
     // 栈满时，追加存储空间
+//    int a = (*S).top;
+//    int b = (*S).base;
+//    int c = (*S).stacksize;
+
     if((*S).top - (*S).base >= (*S).stacksize) {
         (*S).base = (SElemType*) realloc((*S).base, ((*S).stacksize + STACKINCREMENT) * sizeof(SElemType));
         if((*S).base == NULL) {

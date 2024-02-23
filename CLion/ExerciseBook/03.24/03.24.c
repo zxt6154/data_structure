@@ -15,22 +15,22 @@ int main(int argc, char* argv[]) {
     n = 2;
     
     printf("g(%d,%d) = %d\n", m, n, Algo_3_24(m, n));
-    
     return 0;
 }
 
-
 /*
- * 递归计算g(m,n)
+ * 递归计算g(m,n) 5 2
  */
-int Algo_3_24(int m, int n) {
+int Algo_3_24(int m, int n) { // 0 64
     if(m < 0 || n < 0) {
         exit(ERROR);
     }
-    
     if(m == 0) {
         return 0;
     } else {
-        return Algo_3_24(m - 1, 2 * n) + n;
+        int a;
+        a = Algo_3_24(m - 1, 2 * n) + n;
+        printf(" 测试 - %d\n", a);
+        return a;
     }
 }

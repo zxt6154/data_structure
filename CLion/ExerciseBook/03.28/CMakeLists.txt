@@ -2,6 +2,6 @@
 include_directories(${CMAKE_SOURCE_DIR}/Status)
 
 # 生成可执行文件
-add_executable(03.28 03.28.c)
+add_executable(03.28 03.28.c 03.38_z.c)
 # 链接公共库
 target_link_libraries(03.28 Scanf_lib)

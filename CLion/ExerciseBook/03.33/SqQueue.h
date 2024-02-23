@@ -17,7 +17,7 @@
  */
 
 /* 宏定义 */
-#define MAXQSIZE 1000   //最大队列长度
+#define MAXQSIZE 4   //最大队列长度
 
 /* 循环队列元素类型定义 */
 typedef int QElemType;

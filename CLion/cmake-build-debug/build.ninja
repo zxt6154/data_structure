@@ -6837,6 +6837,13 @@ build ExerciseBook/03.20/CMakeFiles/03.20.dir/03.20.c.o: C_COMPILER__03.2e20_Deb
   OBJECT_DIR = ExerciseBook/03.20/CMakeFiles/03.20.dir
   OBJECT_FILE_DIR = ExerciseBook/03.20/CMakeFiles/03.20.dir
 
+build ExerciseBook/03.20/CMakeFiles/03.20.dir/03.20_z.c.o: C_COMPILER__03.2e20_Debug /Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.20/03.20_z.c || cmake_object_order_depends_target_03.20
+  DEP_FILE = ExerciseBook/03.20/CMakeFiles/03.20.dir/03.20_z.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/CLionProjects/Data-Structure/CLion/Status
+  OBJECT_DIR = ExerciseBook/03.20/CMakeFiles/03.20.dir
+  OBJECT_FILE_DIR = ExerciseBook/03.20/CMakeFiles/03.20.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03.20
@@ -6845,7 +6852,7 @@ build ExerciseBook/03.20/CMakeFiles/03.20.dir/03.20.c.o: C_COMPILER__03.2e20_Deb
 #############################################
 # Link the executable ExerciseBook/03.20/03.20
 
-build ExerciseBook/03.20/03.20: C_EXECUTABLE_LINKER__03.2e20_Debug ExerciseBook/03.20/CMakeFiles/03.20.dir/03.20.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build ExerciseBook/03.20/03.20: C_EXECUTABLE_LINKER__03.2e20_Debug ExerciseBook/03.20/CMakeFiles/03.20.dir/03.20.c.o ExerciseBook/03.20/CMakeFiles/03.20.dir/03.20_z.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
   OBJECT_DIR = ExerciseBook/03.20/CMakeFiles/03.20.dir
@@ -6905,6 +6912,13 @@ build ExerciseBook/03.21/CMakeFiles/03.21.dir/03.21.c.o: C_COMPILER__03.2e21_Deb
   OBJECT_DIR = ExerciseBook/03.21/CMakeFiles/03.21.dir
   OBJECT_FILE_DIR = ExerciseBook/03.21/CMakeFiles/03.21.dir
 
+build ExerciseBook/03.21/CMakeFiles/03.21.dir/03.21_z.c.o: C_COMPILER__03.2e21_Debug /Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.21/03.21_z.c || cmake_object_order_depends_target_03.21
+  DEP_FILE = ExerciseBook/03.21/CMakeFiles/03.21.dir/03.21_z.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/CLionProjects/Data-Structure/CLion/Status
+  OBJECT_DIR = ExerciseBook/03.21/CMakeFiles/03.21.dir
+  OBJECT_FILE_DIR = ExerciseBook/03.21/CMakeFiles/03.21.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03.21
@@ -6913,7 +6927,7 @@ build ExerciseBook/03.21/CMakeFiles/03.21.dir/03.21.c.o: C_COMPILER__03.2e21_Deb
 #############################################
 # Link the executable ExerciseBook/03.21/03.21
 
-build ExerciseBook/03.21/03.21: C_EXECUTABLE_LINKER__03.2e21_Debug ExerciseBook/03.21/CMakeFiles/03.21.dir/SqStack.c.o ExerciseBook/03.21/CMakeFiles/03.21.dir/03.21.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build ExerciseBook/03.21/03.21: C_EXECUTABLE_LINKER__03.2e21_Debug ExerciseBook/03.21/CMakeFiles/03.21.dir/SqStack.c.o ExerciseBook/03.21/CMakeFiles/03.21.dir/03.21.c.o ExerciseBook/03.21/CMakeFiles/03.21.dir/03.21_z.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
   OBJECT_DIR = ExerciseBook/03.21/CMakeFiles/03.21.dir
@@ -6973,6 +6987,13 @@ build ExerciseBook/03.22/CMakeFiles/03.22.dir/03.22.c.o: C_COMPILER__03.2e22_Deb
   OBJECT_DIR = ExerciseBook/03.22/CMakeFiles/03.22.dir
   OBJECT_FILE_DIR = ExerciseBook/03.22/CMakeFiles/03.22.dir
 
+build ExerciseBook/03.22/CMakeFiles/03.22.dir/03.22_z.c.o: C_COMPILER__03.2e22_Debug /Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.22/03.22_z.c || cmake_object_order_depends_target_03.22
+  DEP_FILE = ExerciseBook/03.22/CMakeFiles/03.22.dir/03.22_z.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/CLionProjects/Data-Structure/CLion/Status
+  OBJECT_DIR = ExerciseBook/03.22/CMakeFiles/03.22.dir
+  OBJECT_FILE_DIR = ExerciseBook/03.22/CMakeFiles/03.22.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03.22
@@ -6981,7 +7002,7 @@ build ExerciseBook/03.22/CMakeFiles/03.22.dir/03.22.c.o: C_COMPILER__03.2e22_Deb
 #############################################
 # Link the executable ExerciseBook/03.22/03.22
 
-build ExerciseBook/03.22/03.22: C_EXECUTABLE_LINKER__03.2e22_Debug ExerciseBook/03.22/CMakeFiles/03.22.dir/SqStack.c.o ExerciseBook/03.22/CMakeFiles/03.22.dir/03.22.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build ExerciseBook/03.22/03.22: C_EXECUTABLE_LINKER__03.2e22_Debug ExerciseBook/03.22/CMakeFiles/03.22.dir/SqStack.c.o ExerciseBook/03.22/CMakeFiles/03.22.dir/03.22.c.o ExerciseBook/03.22/CMakeFiles/03.22.dir/03.22_z.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
   OBJECT_DIR = ExerciseBook/03.22/CMakeFiles/03.22.dir
@@ -7041,6 +7062,13 @@ build ExerciseBook/03.23/CMakeFiles/03.23.dir/03.23.c.o: C_COMPILER__03.2e23_Deb
   OBJECT_DIR = ExerciseBook/03.23/CMakeFiles/03.23.dir
   OBJECT_FILE_DIR = ExerciseBook/03.23/CMakeFiles/03.23.dir
 
+build ExerciseBook/03.23/CMakeFiles/03.23.dir/03.23_z.c.o: C_COMPILER__03.2e23_Debug /Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.23/03.23_z.c || cmake_object_order_depends_target_03.23
+  DEP_FILE = ExerciseBook/03.23/CMakeFiles/03.23.dir/03.23_z.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/CLionProjects/Data-Structure/CLion/Status
+  OBJECT_DIR = ExerciseBook/03.23/CMakeFiles/03.23.dir
+  OBJECT_FILE_DIR = ExerciseBook/03.23/CMakeFiles/03.23.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03.23
@@ -7049,7 +7077,7 @@ build ExerciseBook/03.23/CMakeFiles/03.23.dir/03.23.c.o: C_COMPILER__03.2e23_Deb
 #############################################
 # Link the executable ExerciseBook/03.23/03.23
 
-build ExerciseBook/03.23/03.23: C_EXECUTABLE_LINKER__03.2e23_Debug ExerciseBook/03.23/CMakeFiles/03.23.dir/SqStack.c.o ExerciseBook/03.23/CMakeFiles/03.23.dir/03.23.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build ExerciseBook/03.23/03.23: C_EXECUTABLE_LINKER__03.2e23_Debug ExerciseBook/03.23/CMakeFiles/03.23.dir/SqStack.c.o ExerciseBook/03.23/CMakeFiles/03.23.dir/03.23.c.o ExerciseBook/03.23/CMakeFiles/03.23.dir/03.23_z.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
   OBJECT_DIR = ExerciseBook/03.23/CMakeFiles/03.23.dir
@@ -7285,6 +7313,13 @@ build ExerciseBook/03.27/CMakeFiles/03.27.dir/03.27.c.o: C_COMPILER__03.2e27_Deb
   OBJECT_DIR = ExerciseBook/03.27/CMakeFiles/03.27.dir
   OBJECT_FILE_DIR = ExerciseBook/03.27/CMakeFiles/03.27.dir
 
+build ExerciseBook/03.27/CMakeFiles/03.27.dir/03.27_z.c.o: C_COMPILER__03.2e27_Debug /Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.27/03.27_z.c || cmake_object_order_depends_target_03.27
+  DEP_FILE = ExerciseBook/03.27/CMakeFiles/03.27.dir/03.27_z.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/CLionProjects/Data-Structure/CLion/Status
+  OBJECT_DIR = ExerciseBook/03.27/CMakeFiles/03.27.dir
+  OBJECT_FILE_DIR = ExerciseBook/03.27/CMakeFiles/03.27.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03.27
@@ -7293,7 +7328,7 @@ build ExerciseBook/03.27/CMakeFiles/03.27.dir/03.27.c.o: C_COMPILER__03.2e27_Deb
 #############################################
 # Link the executable ExerciseBook/03.27/03.27
 
-build ExerciseBook/03.27/03.27: C_EXECUTABLE_LINKER__03.2e27_Debug ExerciseBook/03.27/CMakeFiles/03.27.dir/03.27.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build ExerciseBook/03.27/03.27: C_EXECUTABLE_LINKER__03.2e27_Debug ExerciseBook/03.27/CMakeFiles/03.27.dir/03.27.c.o ExerciseBook/03.27/CMakeFiles/03.27.dir/03.27_z.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
   OBJECT_DIR = ExerciseBook/03.27/CMakeFiles/03.27.dir
@@ -7346,6 +7381,13 @@ build ExerciseBook/03.28/CMakeFiles/03.28.dir/03.28.c.o: C_COMPILER__03.2e28_Deb
   OBJECT_DIR = ExerciseBook/03.28/CMakeFiles/03.28.dir
   OBJECT_FILE_DIR = ExerciseBook/03.28/CMakeFiles/03.28.dir
 
+build ExerciseBook/03.28/CMakeFiles/03.28.dir/03.38_z.c.o: C_COMPILER__03.2e28_Debug /Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook/03.28/03.38_z.c || cmake_object_order_depends_target_03.28
+  DEP_FILE = ExerciseBook/03.28/CMakeFiles/03.28.dir/03.38_z.c.o.d
+  FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -std=gnu90
+  INCLUDES = -I/Users/alice/CLionProjects/Data-Structure/CLion/Status
+  OBJECT_DIR = ExerciseBook/03.28/CMakeFiles/03.28.dir
+  OBJECT_FILE_DIR = ExerciseBook/03.28/CMakeFiles/03.28.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 03.28
@@ -7354,7 +7396,7 @@ build ExerciseBook/03.28/CMakeFiles/03.28.dir/03.28.c.o: C_COMPILER__03.2e28_Deb
 #############################################
 # Link the executable ExerciseBook/03.28/03.28
 
-build ExerciseBook/03.28/03.28: C_EXECUTABLE_LINKER__03.2e28_Debug ExerciseBook/03.28/CMakeFiles/03.28.dir/03.28.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
+build ExerciseBook/03.28/03.28: C_EXECUTABLE_LINKER__03.2e28_Debug ExerciseBook/03.28/CMakeFiles/03.28.dir/03.28.c.o ExerciseBook/03.28/CMakeFiles/03.28.dir/03.38_z.c.o | Status/libScanf_lib.a || Status/libScanf_lib.a
   FLAGS = -g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk
   LINK_LIBRARIES = Status/libScanf_lib.a
   OBJECT_DIR = ExerciseBook/03.28/CMakeFiles/03.28.dir

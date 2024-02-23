@@ -39,10 +39,13 @@ Status EnQueue_3_33(SqQueue* Q, QElemType e) {
     }
     
     // 如果队列满，直接返回
-    if(((*Q).rear + 1) % MAXQSIZE == (*Q).front) {
+    int rearint = (*Q).rear + 1;
+    int frontint = (*Q).front;
+    if(rearint % MAXQSIZE == frontint) {
         return ERROR;
     }
-    
+    //      front
+    // 0123 4 567 最大8
     // 如果队列为空，直接插入到队尾
     if((*Q).front == (*Q).rear) {
         (*Q).base[(*Q).rear] = e;

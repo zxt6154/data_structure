@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ExerciseBook/03.21/03.21"
+			"path" : "ExerciseBook/03.23/03.23"
 		}
 	],
 	"backtrace" : 1,
@@ -16,7 +16,7 @@
 		],
 		"files" : 
 		[
-			"ExerciseBook/03.21/CMakeLists.txt"
+			"ExerciseBook/03.23/CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -74,7 +74,8 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -85,7 +86,7 @@
 			"id" : "Scanf_lib::@fe314c4577536ad9eb12"
 		}
 	],
-	"id" : "03.21::@a8461072c4be089f933d",
+	"id" : "03.23::@e2eb1f8fa1cfdcc85a4e",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -106,12 +107,12 @@
 		],
 		"language" : "C"
 	},
-	"name" : "03.21",
-	"nameOnDisk" : "03.21",
+	"name" : "03.23",
+	"nameOnDisk" : "03.23",
 	"paths" : 
 	{
-		"build" : "ExerciseBook/03.21",
-		"source" : "ExerciseBook/03.21"
+		"build" : "ExerciseBook/03.23",
+		"source" : "ExerciseBook/03.23"
 	},
 	"sourceGroups" : 
 	[
@@ -127,7 +128,8 @@
 			"sourceIndexes" : 
 			[
 				1,
-				2
+				2,
+				3
 			]
 		}
 	],
@@ -135,19 +137,25 @@
 	[
 		{
 			"backtrace" : 1,
-			"path" : "ExerciseBook/03.21/SqStack.h",
+			"path" : "ExerciseBook/03.23/SqStack.h",
 			"sourceGroupIndex" : 0
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ExerciseBook/03.21/SqStack.c",
+			"path" : "ExerciseBook/03.23/SqStack.c",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "ExerciseBook/03.21/03.21.c",
+			"path" : "ExerciseBook/03.23/03.23.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "ExerciseBook/03.23/03.23_z.c",
 			"sourceGroupIndex" : 1
 		}
 	],

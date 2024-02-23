@@ -35,33 +35,33 @@ Status DeQueue_3_28(LinkQueue* Q, QElemType* e);
 // 输出队列元素
 void Output(LinkQueue Q);
 
-
-int main(int argc, char* argv[]) {
-    LinkQueue Q;
-    int i;
-    QElemType e;
-    
-    printf("████ 初始化队列...\n");
-    InitQueue_3_28(&Q);
-    
-    printf("████ 进行 5 次连续入队操作...\n");
-    for(i = 1; i <= 5; i++) {
-        EnQueue_3_28(&Q, i);
-    
-        printf("█ 元素 \"%d\" 入队后，队列中的元素为：", i);
-        Output(Q);
-    }
-    
-    printf("████ 进行 5 次连续出队操作...\n");
-    for(i = 1; i <= 5; i++) {
-        DeQueue_3_28(&Q, &e);
-        
-        printf("█ 元素 \"%d\" 出队后，队列中的元素为：", e);
-        Output(Q);
-    }
-    
-    return 0;
-}
+//
+//int main(int argc, char* argv[]) {
+//    LinkQueue Q;
+//    int i;
+//    QElemType e;
+//
+//    printf("████ 初始化队列...\n");
+//    InitQueue_3_28(&Q);
+//
+//    printf("████ 进行 5 次连续入队操作...\n");
+//    for(i = 1; i <= 5; i++) {
+//        EnQueue_3_28(&Q, i);
+//
+//        printf("█ 元素 \"%d\" 入队后，队列中的元素为：", i);
+//        Output(Q);
+//    }
+//
+//    printf("████ 进行 5 次连续出队操作...\n");
+//    for(i = 1; i <= 5; i++) {
+//        DeQueue_3_28(&Q, &e);
+//
+//        printf("█ 元素 \"%d\" 出队后，队列中的元素为：", e);
+//        Output(Q);
+//    }
+//
+//    return 0;
+//}
 
 
 // 队列初始化

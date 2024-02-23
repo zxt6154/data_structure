@@ -14,19 +14,21 @@ Status Algo_3_22(char c[], SElemType* Value);
 /* 计算 a oper b 的值 */
 char Operate(char a, char oper, char b);
 
+void GetTop(SqStack S);
 
-int main(int argc, char* argv[]) {
-    char c[] = "124*+93/-";
-    SElemType value;
-    
-    printf("已知逆波兰式为：");
-    printf("%s\n", c);
-    
-    Algo_3_22(c, &value);
-    printf("逆波兰式的计算结果为：%d\n", value - 48);
-    
-    return 0;
-}
+
+//int main(int argc, char* argv[]) {
+//    char c[] = "124*+93/-";
+//    SElemType value;
+//
+//    printf("已知逆波兰式为：");
+//    printf("%s\n", c);
+//
+//    Algo_3_22(c, &value);
+//    printf("逆波兰式的计算结果为：%d\n", value - 48);
+//
+//    return 0;
+//}
 
 
 /*
@@ -41,7 +43,8 @@ Status Algo_3_22(char c[], SElemType* Value) {
     SElemType a, b;
     
     InitStack(&S);
-    
+
+    printf("---------start--------\n");//124*+93/-
     for(i = 0; c[i]!='\0'; ++i) {
         // 如果遇到数字字符
         if(isdigit(c[i])) {
@@ -52,8 +55,10 @@ Status Algo_3_22(char c[], SElemType* Value) {
             Pop(&S, &a);
             Push(&S, Operate(a, c[i], b));
         }
+        GetTop(S);
     }
-    
+    printf("\n");
+    printf("---------end---------\n");
     Pop(&S, Value);
     
     if(!StackEmpty(S)) {
@@ -63,7 +68,7 @@ Status Algo_3_22(char c[], SElemType* Value) {
     }
 }
 
-/* 计算 a oper b 的值 */
+/* 计算 a oper b 的值  48 ASCII码是0*/
 char Operate(char a, char oper, char b) {
     char c;
     
@@ -83,4 +88,12 @@ char Operate(char a, char oper, char b) {
     }
     
     return c;
+}
+void GetTop(SqStack S) {
+    if(S.base == NULL || S.top == S.base) {
+        printf("空 \n ");
+    }
+   else {
+        printf("%c ", *(S.top-1));
+   }
 }

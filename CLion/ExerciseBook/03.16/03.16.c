@@ -49,8 +49,8 @@ int main(int argc, char* argv[]) {
  *
  * 假设入口在右边，出口在左边，车厢读取顺序从左到右
  *
- * En ：等待调度的列车序列
- * seq：调度序列
+ * En ：等待调度的列车序列  char* En = "HSHHSHHHSSHSSSHS";
+ * seq：调度序列  char seq[100] = {'\0'};
  */
 void Algo_3_16(char* En, char seq[]) {
     int i, j;
@@ -60,7 +60,7 @@ void Algo_3_16(char* En, char seq[]) {
     // 初始化一个中转栈
     InitStack(&S);
     
-    // 遍历待调度序列
+    // 遍历待调度序列 "HSHHSHHHSSHSSSHS"
     for(i = j = 0; En[i] != '\0'; i++) {
         // 遇到硬席，则将其入栈
         if(En[i] == 'H') {

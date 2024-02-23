@@ -46,7 +46,7 @@ Status Algo_3_31(char* s) {
     if(len == 0 || s[len - 1] != '@') {
         return FALSE;
     }
-    
+
     // 空串被认为是回文序列
     if(len == 1) {
         return TRUE;
@@ -59,7 +59,7 @@ Status Algo_3_31(char* s) {
         m = (len - 2) / 2;
         n = m + 1;
     }
-    
+
     InitStack(&S);
     
     // 先把回文串前半段入栈

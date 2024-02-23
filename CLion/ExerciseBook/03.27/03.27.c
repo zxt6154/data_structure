@@ -22,23 +22,23 @@ int Algo_3_27_1(int m, int n);
  */
 int Algo_3_27_2(int m, int n);
 
+int Algo_3_27_z(int n, int m);
+
 
 int main(int argc, char* argv[]) {
     
-    printf("akm(3,4) = %d\n", Algo_3_27_1(3, 4));
+   // printf("akm(3,4) = %d\n", Algo_3_27_z(2, 3));
     
-    printf("akm(3,4) = %d\n", Algo_3_27_2(3, 4));
+    printf("akm(3,4) = %d\n", Algo_3_27_1(3, 1));
     
     return 0;
 }
-
-
 /*
  * (1)递归法
  *
  * 递归计算阿克曼函数
  */
-int Algo_3_27_1(int m, int n) {
+int Algo_3_27_1(int m, int n) { // 3,4
     int akm, tmp;
     
     if(m < 0 || n < 0) {
@@ -50,9 +50,9 @@ int Algo_3_27_1(int m, int n) {
     } else if(n == 0) {
         akm = Algo_3_27_1(m - 1, 1);
     } else {
-        akm = Algo_3_27_1(m - 1, Algo_3_27_1(m, n - 1));
+        akm = Algo_3_27_1(m - 1, Algo_3_27_1(m, n - 1)); //
     }
-    
+    // 3 42 ;
     return akm;
 }
 
@@ -64,7 +64,6 @@ int Algo_3_27_1(int m, int n) {
 int Algo_3_27_2(int m, int n) {
     SElemType stack[1000];
     int top = -1;   // 初始化为-1，而不是0
-    
     if(m < 0 || n < 0) {
         exit(ERROR);
     }
@@ -100,6 +99,45 @@ int Algo_3_27_2(int m, int n) {
             stack[top].nval = 1;
         }
     }
-    
+    return stack[top].nval + 1;
+}
+
+
+int Algo_3_27_z(int n, int m) {
+    SElemType stack[1000];
+    int top = -1;
+
+    if(m < 0 || n< 0) exit(ERROR);
+
+    top++;
+
+    stack[top].mval = m;
+    stack[top].nval = n;
+
+    while(1) {
+        // m == 0
+        while(top > 0 && stack[top].mval == 0) {
+            top--;
+            stack[top].mval = stack[top].mval - 1;
+            stack[top].nval = stack[top + 1].nval + 1;
+        }
+        //n == 0
+        if(stack[top].nval == 0) {
+            stack[top].mval = stack[top].mval - 1;
+            stack[top].nval = 1;
+        }
+
+
+        if(top==0 && stack[0].mval == 0) {
+            break;
+        }
+
+        // m!=0 n!=0
+        while(stack[top].nval > 0) {
+            top++;
+            stack[top].mval = stack[top - 1].mval;
+            stack[top].nval = stack[top - 1].nval - 1;
+        }
+    }
     return stack[top].nval + 1;
 }

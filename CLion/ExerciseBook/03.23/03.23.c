@@ -19,19 +19,19 @@ char* CharToStr(char c);
 char* StrCat(char* a, char* b);
 
 
-int main(int argc, char* argv[]) {
-    char* s = "abc+*de/-";
-    
-    printf("中缀表达式：%s\n", "a*(b+c)-d/e");
-    
-    printf("后缀表达式：");
-    printf("%s\n", s);
-    
-    printf("前缀表达式：");
-    printf("%s\n", Algo_3_23(s));
-    
-    return 0;
-}
+//int main(int argc, char* argv[]) {
+//    char* s = "abc+*de/-";
+//
+//    printf("中缀表达式：%s\n", "a*(b+c)-d/e"); //a*(b+c)-d/e
+//
+//    printf("后缀表达式："); //abc+*de/-
+//    printf("%s\n", s);
+//
+//    printf("前缀表达式：");  // -*a+bc/de
+//    printf("%s\n", Algo_3_23(s));
+//
+//    return 0;
+//}
 
 
 /*

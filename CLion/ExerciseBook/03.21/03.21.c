@@ -34,17 +34,17 @@ char* Algo_3_21(char s[]);
 char Precede(char o1, char o2);
 
 
-int main(int argc, char* argv[]) {
-    char* s = "a+b*c-d/e";
-    
-    printf("中缀表达式为：");
-    printf("%s\n", s);
-    
-    printf("后缀表达式为：");
-    printf("%s\n", Algo_3_21(s));
-    
-    return 0;
-}
+//int main(int argc, char* argv[]) {
+//    char* s = "a+b*c-d/e";
+//
+//    printf("中缀表达式为：");
+//    printf("%s\n", s);
+//
+//    printf("后缀表达式为：");
+//    printf("%s\n", Algo_3_21(s));
+//
+//    return 0;
+//}
 
 
 /*

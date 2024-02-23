@@ -87,14 +87,6 @@ Status Inistack_3_15(TWS* tws) {
     
     return OK;
 }
-Status initStack_3_15(TWS* tws) {
-    if(tws == NULL) {return ERROR;}
-
-    (*tws).top[Left] = -1;
-    (*tws).top[Right] = N;
-    return OK;
-}
-
 
 // 入栈，name指示向哪个栈中添加元素
 Status Push_3_15(TWS* tws, StackName name, SElemType x) {

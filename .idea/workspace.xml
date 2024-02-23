@@ -223,77 +223,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6fa24513-aa45-4a40-8c2f-221a904b8a4e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.10/03.10.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.10/03.10.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.10/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.10/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.10/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/SqQue_03_12.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/SqQue_03_12.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/query/toolchains-v1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/reply/cache-v2-3117b3418d2fdb91c47c.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-87d55d163e8a94da04fb.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f39ae69b755bfd4346e5.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/reply/directory-.-Debug-f5ebdc15457944623624.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/reply/index-2023-08-17T09-32-33-0587.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/reply/target-03.10-Debug-ceacd6e57945e670651f.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/.cmake/api/v1/reply/toolchains-v1-8ef22fc22b78ff80d4b2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CMakeCCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CMakeCXXCompiler.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CMakeSystem.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdC/CMakeCCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/3.22.3/CompilerIdCXX/CMakeCXXCompilerId.o" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/CMakeError.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/cmake.check_cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/build.ninja" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/cmake-build-debug/cmake_install.cmake" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/Status/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLion/Status/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Data-Structure.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Data-Structure.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GrepConsole.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20_z.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.21/03.21_z.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.22/03.22_z.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.23/03.23_z.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.27/03.27_z.c" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.28/03.38_z.c" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/CourseBook/0202_Union/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/CourseBook/0202_Union/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/CourseBook/0301_SqStack/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/CourseBook/0301_SqStack/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/CourseBook/0308_SqQueue/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/CourseBook/0308_SqQueue/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/02.31/02.31.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/02.31/02.31.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/02.37/02.37.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/02.37/02.37.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/02.37/DuLinkList.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/02.37/DuLinkList.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/cache-v2-777a93f4730af52c42ee.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-6fa8754da7e22f91124d.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-997697f8513584dea496.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/index-2022-05-13T02-34-58-0540.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-SqQueue-Debug-be83d0f71a295c8fe4ab.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-SqStack-Debug-7e8f4260e19e07353c3f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-Union-Debug-c913ad1ae73d5c6874c1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.16/03.16.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.16/03.16.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.16/SqStack.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.16/SqStack.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.20/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.20/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.21/03.21.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.21/03.21.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.21/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.21/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.22/03.22.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.22/03.22.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.22/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.22/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.23/03.23.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.23/03.23.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.23/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.23/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.24/03.24.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.24/03.24.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.27/03.27.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.27/03.27.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.27/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.27/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.28/03.28.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.28/03.28.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.28/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.28/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.31/03.31.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.31/03.31.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.33/03.33.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.33/03.33.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.33/SqQueue.c" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.33/SqQueue.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/ExerciseBook/03.33/SqQueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/ExerciseBook/03.33/SqQueue.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-62aa0618f6979db13439.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/index-2023-08-22T09-49-09-0739.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-03.20-Debug-9da9bffc999ed5ec1cd0.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-03.21-Debug-86c03bb4e162bb0d97d3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-03.22-Debug-be8b5855e7b6923b1f40.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-03.23-Debug-5e33cbb67c862894db00.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-03.27-Debug-6514498584a163013dbe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.cmake/api/v1/reply/target-03.28-Debug-4fc1b2dab7c04d9d9d3e.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/.ninja_log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/02.31/02.31" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/02.31/02.31" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/02.31/CMakeFiles/02.31.dir/02.31.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/02.31/CMakeFiles/02.31.dir/02.31.c.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/03.12/03.12" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/03.12/03.12" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/03.12/CMakeFiles/03.12.dir/03.12.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/03.12/CMakeFiles/03.12.dir/03.12.c.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/03.16/03.16" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/03.16/03.16" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/03.16/CMakeFiles/03.16.dir/SqStack.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/ExerciseBook/03.16/CMakeFiles/03.16.dir/SqStack.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/Status/CMakeFiles/Scanf_lib.dir/Status.c.o" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/Status/CMakeFiles/Scanf_lib.dir/Status.c.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/Status/libScanf_lib.a" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/Status/libScanf_lib.a" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CLion/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/CLion/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -310,6 +283,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file:///Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk/usr/include/_ctype.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file:///Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include/limits.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -334,12 +311,13 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
     &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/alice/CLionProjects/Data-Structure/CLion/ExerciseBook&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.general&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -348,7 +326,7 @@
       <recent name="$PROJECT_DIR$/CLion/ExerciseBook/03.10" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.03.12">
+  <component name="RunManager" selected="CMake Application.03.33">
     <configuration name="01.16" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="CLion" TARGET_NAME="01.16" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="CLion" RUN_TARGET_NAME="01.16">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -1394,11 +1372,6 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="CMake Application.SqList" />
       <item itemvalue="CMake Application.Union" />
@@ -1648,7 +1621,31 @@
       <workItem from="1691329260056" duration="7178000" />
       <workItem from="1691719413215" duration="2959000" />
       <workItem from="1691832645179" duration="55410000" />
-      <workItem from="1692544481039" duration="45999000" />
+      <workItem from="1692544481039" duration="97413000" />
+      <workItem from="1693793896207" duration="5464000" />
+      <workItem from="1694416490802" duration="598000" />
+      <workItem from="1694418619969" duration="5598000" />
+      <workItem from="1694484426468" duration="4068000" />
+      <workItem from="1695348224933" duration="6827000" />
+      <workItem from="1696560953264" duration="596000" />
+      <workItem from="1696598540497" duration="12056000" />
+      <workItem from="1696903888767" duration="4032000" />
+      <workItem from="1697422491015" duration="43569000" />
+      <workItem from="1697680823543" duration="103000" />
+      <workItem from="1697681105506" duration="41752000" />
+      <workItem from="1698112581915" duration="46816000" />
+      <workItem from="1698555450571" duration="97990000" />
+      <workItem from="1699777538833" duration="32719000" />
+      <workItem from="1700609793347" duration="11568000" />
+      <workItem from="1700815761409" duration="598000" />
+      <workItem from="1701051407408" duration="14944000" />
+      <workItem from="1701312425342" duration="435000" />
+      <workItem from="1701313296207" duration="9335000" />
+      <workItem from="1704683663243" duration="8800000" />
+      <workItem from="1704959582250" duration="1277000" />
+      <workItem from="1706668715302" duration="538000" />
+      <workItem from="1707273756323" duration="1196000" />
+      <workItem from="1707710681118" duration="1182000" />
     </task>
     <servers />
   </component>
@@ -1768,16 +1765,191 @@
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c</url>
+          <line>80</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c</url>
+          <line>92</line>
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c</url>
+          <line>97</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c</url>
+          <line>175</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c</url>
+          <line>57</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c</url>
+          <line>142</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.15/03.15.c</url>
+          <line>146</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.c</url>
-          <line>53</line>
-          <option name="timeStamp" value="66" />
+          <line>150</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.c</url>
+          <line>157</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.16/03.16.c</url>
+          <line>100</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.17/03.17.c</url>
+          <line>35</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.16/SqStack.c</url>
+          <line>16</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.16/SqStack.c</url>
+          <line>71</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.c</url>
+          <line>44</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.12/03.12.c</url>
+          <line>165</line>
+          <option name="timeStamp" value="86" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.21/03.21.c</url>
+          <line>57</line>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.21/03.21.c</url>
+          <line>112</line>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>66</line>
+          <option name="timeStamp" value="92" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>119</line>
+          <option name="timeStamp" value="93" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>130</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>58</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>171</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>181</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>158</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>76</line>
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20.c</url>
+          <line>213</line>
+          <option name="timeStamp" value="105" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.20/03.20_z.c</url>
+          <line>57</line>
+          <option name="timeStamp" value="107" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.21/03.21_z.c</url>
+          <line>62</line>
+          <option name="timeStamp" value="111" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.22/03.22.c</url>
+          <line>72</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.22/03.22.c</url>
+          <line>49</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.23/03.23_z.c</url>
+          <line>79</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.24/03.24.c</url>
+          <line>31</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.27/03.27.c</url>
+          <line>58</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.28/03.38_z.c</url>
+          <line>90</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.31/03.31.c</url>
+          <line>44</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/CLion/ExerciseBook/03.33/SqQueue.c</url>
+          <line>43</line>
+          <option name="timeStamp" value="144" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
-      <inline-watch fileUrl="file://$PROJECT_DIR$/CLion/ExerciseBook/02.33/02.33.c" line="81">
-        <watch expression="r" language="ObjectiveC" />
-      </inline-watch>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="stack" />
+      </configuration>
     </watches-manager>
   </component>
 </project>
